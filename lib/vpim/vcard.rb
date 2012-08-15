@@ -688,7 +688,7 @@ module Vpim
         when /^B\x00/i
           string = string.unpack('v*').pack('U*')
       end
-
+      string = string.split("\n")
       entities = Vpim.expand(Vpim.decode(string))
 
       # Since all vCards must have a begin/end, the top-level should consist
