@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{vpim-rails}
-  s.version = "0.666"
+  s.name = %q{vpim-rails-reinteractive}
+  s.version = "0.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Sam Roberts", "Fraser Newton"]
+  s.authors = ["Sam Roberts", "Fraser Newton", "Ben Wiseley"]
   s.date = %q{2009-03-28}
   s.description = %q{This is vPim updated for use with Rails applications.}
   s.email = %q{fraser@goclio.com}
